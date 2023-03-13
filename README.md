@@ -79,6 +79,4 @@ You can run Laravel's built-in development server by executing:
 ```sh
   php artisan serve
 ```
-and then refer to the next segment.
-
 #
