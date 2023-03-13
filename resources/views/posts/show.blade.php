@@ -9,7 +9,7 @@
                 </p>
 
                 <div class="flex items-center lg:justify-center text-sm mt-4">
-                    <img src={{ $post->author->thumbnail }} alt="Lary avatar">
+                    <img src={{ $post->author->thumbnail }} alt="Lary avatar" class="w-12 rounded-sm">
                     <div class="ml-3 text-left">
                         <h5 class="font-bold"><a href="/?author={{ $post->author->username }}">{{ $post->author->name }}</a></h5>
                     </div>
